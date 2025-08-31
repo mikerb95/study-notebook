@@ -1,0 +1,12 @@
+# Node
+node_modules/
+
+# VitePress build & cache
+docs/.vitepress/cache/
+docs/.vitepress/dist/
+
+# OS/Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
