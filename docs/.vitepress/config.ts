@@ -3,9 +3,8 @@ import fs from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 
-// Edita esto con tu repo para el enlace del navbar y, si usas GitHub Pages en una subruta, ajusta base
-const GITHUB_REPO = 'https://github.com/<tu-usuario>/<tu-repo>'
-// export const base = '/<tu-repo>/' // descomenta y ajusta si tu sitio se sirve en subruta
+// Enlace a tu repo y base para GitHub Pages en subruta
+const GITHUB_REPO = 'https://github.com/mikerb95/study-notebook'
 
 const dirname = fileURLToPath(new URL('.', import.meta.url))
 const clasesDir = path.resolve(dirname, '../clases')
@@ -46,7 +45,7 @@ export default defineConfig({
   lang: 'es-ES',
   title: 'Study Notebook',
   description: 'Apuntes en Markdown estilo Notion',
-  // base, // descomenta y ajusta si usas GitHub Pages en subruta
+  base: '/study-notebook/',
   themeConfig: {
     nav: [
       { text: 'Inicio', link: '/' },

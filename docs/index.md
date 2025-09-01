@@ -11,7 +11,7 @@ hero:
       link: /clases/
     - theme: alt
       text: Repo en GitHub
-      link: https://github.com/<tu-usuario>/<tu-repo>
+      link: https://github.com/mikerb95/study-notebook
 features:
   - title: Markdown puro
     details: Archivos compatibles con el render de GitHub, sin vendor lock-in.
